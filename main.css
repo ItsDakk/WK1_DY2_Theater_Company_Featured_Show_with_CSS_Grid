@@ -1,0 +1,34 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto();
+    grid-template-areas: 
+    "nav-main";
+    
+}
+
+.grid-item-nav-main {
+    grid-area: "nav-main";
+}
+
+
+.grid-item1 {
+    grid-area: grid-item1;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto();
+    grid-template-areas: 
+    "map info shows social";
+
+    background-color: black;
+    color: white;
+
+}
+
+
+
+
+
